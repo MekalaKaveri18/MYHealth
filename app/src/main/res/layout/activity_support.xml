@@ -1,0 +1,38 @@
+<!-- activity_support.xml -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/messageListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/messageInput"
+        android:divider="@null"
+        android:stackFromBottom="true"
+        android:transcriptMode="alwaysScroll" />
+
+    <EditText
+        android:id="@+id/messageInput"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="16dp"
+        android:hint="Type your message"
+        android:inputType="textMultiLine"
+        android:maxLines="3"
+        android:imeOptions="actionSend" />
+    <!-- message_sent.xml -->
+    
+
+    <Button
+        android:id="@+id/sendButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/messageInput"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"
+        android:text="Send" />
+
+</RelativeLayout>

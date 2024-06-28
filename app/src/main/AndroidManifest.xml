@@ -1,0 +1,37 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Permission to access the internet -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:appCategory="audio"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BeHealthy">
+
+        <!-- Activity Declarations -->
+        <activity android:name="com.example.behealthy.RegisterActivity" android:exported="false" />
+        <activity android:name="com.example.behealthy.ForgetPasswordActivity" android:exported="false" />
+        <activity android:name="com.example.behealthy.LoginActivity" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.behealthy.InstructionActivity" android:exported="false" />
+        <activity android:name="com.example.behealthy.ChallengeActivity" android:exported="false" />
+        <activity android:name="com.example.behealthy.WorkoutActivity" android:exported="false" />
+        <activity android:name="com.example.behealthy.MainActivity" android:exported="false" />
+        <activity android:name="com.example.behealthy.CalorieCounterActivity" android:exported="false" />
+        <activity android:name="com.example.behealthy.PlayActivity" android:exported="false" />
+        <activity android:name="com.example.behealthy.QuizActivity" android:exported="false" />
+        <activity android:name="com.example.behealthy.CallActivity" android:exported="false" />
+        <activity android:name="com.example.behealthy.RelaxationSoundActivity" android:exported="false" />
+        <activity android:name="com.example.behealthy.ProgressActivity" android:exported="false" />
+        <activity android:name="com.example.behealthy.SupportActivity" android:exported="false" />
+    </application>
+
+</manifest>

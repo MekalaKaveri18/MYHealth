@@ -1,0 +1,124 @@
+<!-- activity_quiz.xml -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff5ddfe">
+
+    <!-- Status Bar -->
+    <LinearLayout
+        android:id="@+id/statusBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end"/>
+
+    <!-- Content Area -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/statusBar"
+        android:orientation="vertical"
+        android:padding="40dp">
+
+        <!-- Question Text -->
+        <TextView
+            android:id="@+id/tvQuestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Q1. What are you looking for?"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <!-- Options for Question -->
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp">
+
+            <!-- Option 1 -->
+            <RadioButton
+                android:id="@+id/option1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MyHealth tracking app"
+                android:textColor="#000000"
+                android:padding="8dp" />
+
+            <!-- Option 2 -->
+            <RadioButton
+                android:id="@+id/option2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Just want to check my health status"
+                android:textColor="#000000"
+                android:padding="8dp" />
+
+            <!-- Option 3 -->
+            <RadioButton
+                android:id="@+id/option3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Yes"
+                android:textColor="#000000"
+                android:padding="8dp"
+                android:visibility="gone" />
+
+            <!-- Option 4 -->
+            <RadioButton
+                android:id="@+id/option4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No"
+                android:textColor="#000000"
+                android:padding="8dp"
+                android:visibility="gone" />
+        </RadioGroup>
+
+        <!-- Navigation Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end"
+            android:layout_marginTop="16dp">
+
+            <!-- Previous Button -->
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Prev"
+                android:layout_marginEnd="8dp" />
+
+            <!-- Next Button -->
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Next"
+                android:layout_marginEnd="8dp" />
+
+            <!-- Submit Button -->
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Submit" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- Quiz Button -->
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="Quiz"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp" />
+
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<!-- activity_calorie_counter.xml -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/etFoodName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Food Name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/etCalories"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/etFoodName"
+        android:layout_marginTop="23dp"
+        android:hint="Calories"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/btnSaveCalories"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etCalories"
+        android:layout_marginTop="100dp"
+        android:text="Save Calories" />
+
+</RelativeLayout>

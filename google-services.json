@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "175305740074",
+    "project_id": "myhealth-aa8c8",
+    "storage_bucket": "myhealth-aa8c8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:175305740074:android:cc7b84366731d2805b1853",
+        "android_client_info": {
+          "package_name": "com.example.behealthy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXasiS29zcbtrW6TUQoUz1OWNBSPFMbsw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:175305740074:android:b7403fac7d85ed2b5b1853",
+        "android_client_info": {
+          "package_name": "myhealth.com"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXasiS29zcbtrW6TUQoUz1OWNBSPFMbsw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

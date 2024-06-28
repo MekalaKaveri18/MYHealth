@@ -1,0 +1,23 @@
+<!-- activity_relaxation_sound.xml -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/playButton"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_centerInParent="true"
+        android:text="Play" />
+
+    <TextClock
+        android:id="@+id/textClock"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+    <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="48dp" />
+
+</RelativeLayout>

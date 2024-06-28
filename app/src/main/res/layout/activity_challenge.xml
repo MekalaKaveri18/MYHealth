@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="48dp">
+
+    <!-- Challenge selection spinner -->
+
+    <!-- Button to start the selected challenge -->
+
+    <Spinner
+        android:id="@+id/challengeSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="64dp" />
+
+    <Button
+        android:id="@+id/startChallengeButton"
+        android:layout_width="288dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/challengeSpinner"
+        android:layout_marginTop="23dp"
+        android:text="Start Challenge" />
+
+    <EditText
+        android:id="@+id/editTextTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="time" />
+
+</RelativeLayout>

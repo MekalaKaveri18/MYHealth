@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">BeHealthy</string>
+    <string name="welcome_message">Welcome to BeHealthy App!</string>
+    <string name="sukhasana_description">Asanas, or yoga postures, are specific physical poses designed to cultivate physical and mental well-being. Practiced alongside controlled breathing techniques, each asana targets different muscle groups, enhances flexibility, and promotes overall strength and balance. Rooted in Sanskrit terminology, these postures carry ancient wisdom that connects practitioners to yoga\'s philosophical and spiritual foundations. Beyond physical benefits like improved joint mobility and circulation, asanas also foster mental clarity, stress reduction, and a deeper sense of self-awareness..</string>
+    <string name="balasana_description">.</string>
+        <string-array name="challenge_options">
+            <item>Yoga Practice</item>
+            <item>Running Challenge</item>
+            <item>Swimming Challenge</item>
+            <!-- Add more challenge options as needed -->
+        </string-array>
+
+    <!-- Other string resources -->
+</resources>

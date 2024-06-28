@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/btn_start_workout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Workout" />
+
+    <Button
+        android:id="@+id/btn_start_challenge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Challenge" />
+
+    <Button
+        android:id="@+id/btn_start_instruction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Instruction Activities" />
+
+    <Button
+        android:id="@+id/btn_progress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Navigate to My Progression" />
+
+    <Button
+        android:id="@+id/btn_relaxation_sound"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Relaxation Sound" />
+
+    <Button
+        android:id="@+id/btn_calorie_counter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Calorie Counter" />
+
+    <Button
+        android:id="@+id/btn_support"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Navigate to Support Services" />
+
+    <Button
+        android:id="@+id/btn_call"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Call Activity" />
+
+    <Button
+        android:id="@+id/btn_play"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play Activity" />
+
+    <Button
+        android:id="@+id/btn_quiz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Quiz Activity" />
+
+</LinearLayout>

@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "1026266902067",
+    "firebase_url": "https://mental-health-50dc3-default-rtdb.firebaseio.com",
+    "project_id": "mental-health-50dc3",
+    "storage_bucket": "mental-health-50dc3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1026266902067:android:7b09e4d747f012bc817d46",
+        "android_client_info": {
+          "package_name": "com.example.behealthy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1026266902067-pcq4tse7t5hmkh6ajqoal32luua58acj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAP52ofeaMrbK9jXdWvoJlnD8BLG0Ou3Bc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1026266902067-pcq4tse7t5hmkh6ajqoal32luua58acj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1026266902067:android:1abc4c8cf8d2c85e817d46",
+        "android_client_info": {
+          "package_name": "com.example.behealthy3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1026266902067-pcq4tse7t5hmkh6ajqoal32luua58acj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAP52ofeaMrbK9jXdWvoJlnD8BLG0Ou3Bc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1026266902067-pcq4tse7t5hmkh6ajqoal32luua58acj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

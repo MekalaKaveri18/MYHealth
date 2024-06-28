@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- TextView to display yoga asana description -->
+    <TextView
+        android:id="@+id/yogaAsanaTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:padding="8dp"
+        android:text="Select a yoga asana to display its description" />
+
+    <!-- Button to switch to the next yoga asana -->
+    <TextView
+        android:id="@+id/nextAsanaButton"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="Next Asana"
+        android:layout_below="@id/yogaAsanaTextView"
+        android:layout_marginTop="16dp"
+        android:onClick="onNextAsanaButtonClick" />
+
+    <!-- ImageView to display an image of the yoga asana -->
+    <ImageView
+        android:id="@+id/yogaAsanaImageView"
+        android:layout_width="194dp"
+        android:layout_height="182dp"
+        android:layout_below="@id/nextAsanaButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:contentDescription="Image of Sukhasana"
+        android:src="@drawable/img_2" />
+
+    <!-- ScrollView to contain more information about the yoga asana -->
+    <ScrollView
+        android:id="@+id/asanaInfoScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/yogaAsanaImageView"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:id="@+id/asanaInfoTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:text="yoga asana" />
+
+    </ScrollView>
+
+    <!-- Button to start practicing the selected yoga asana -->
+    <TextView
+        android:id="@+id/startPracticeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:text="Start Practice"
+        android:layout_below="@id/asanaInfoScrollView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:onClick="onStartPracticeButtonClick" />
+
+</RelativeLayout>
