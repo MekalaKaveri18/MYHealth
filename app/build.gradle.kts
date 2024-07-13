@@ -51,6 +51,10 @@ dependencies {
     implementation("com.google.firebase:firebase-analytics:22.0.2")
     implementation(fileTree(mapOf("dir" to "libs","include" to listOf("*.jar"))))
     implementation(libs.media)
+    implementation ("com.google.firebase:firebase-ml-model-interpreter:22.0.4")
+    implementation ("org.tensorflow:tensorflow-lite:2.4.0")
+    implementation ("com.google.firebase:firebase-ml-modeldownloader:22.0.4")
+
     testImplementation("junit:junit:4.13.2")
     implementation("androidx.activity:activity-ktx:1.7.2")
     implementation("org.jetbrains.kotlin:kotlin-stdlib:1.8.0")
